@@ -11,7 +11,7 @@ const shrinkLabelStyles = css`
 
 
 export const FormInputLabel = styled.label`
-    color: $sub-color;
+    color: ${subColor};
     font-size: 16px;
     font-weight: normal;
     position: absolute;
@@ -26,7 +26,7 @@ export const FormInputLabel = styled.label`
 export const Input = styled.input`
     background: none;
     background-color: white;
-    color: $sub-color;
+    color: ${subColor};
     font-size: 18px;
     padding: 10px 10px 10px 5px;
     display: block;
@@ -50,10 +50,6 @@ export const Group = styled.div`
     position: relative;
     margin: 45px 0;
 
-    .form-input {
-        
-        }
-    }
 
     input[type='password'] {
         letter-spacing: 0.3em;
